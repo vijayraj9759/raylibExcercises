@@ -3,8 +3,8 @@ const r = require("raylib");
 const windowWidth = 800;
 const windowHeight = 500;
 
-const rectWidth = 200;
-const rectHeight = 100;
+const rectWidth = 400;
+const rectHeight = 200;
 
 function centerCoordinate(largerSubCoordinate, smallerSubCoordinate) {
     return (largerSubCoordinate - smallerSubCoordinate) / 2;
