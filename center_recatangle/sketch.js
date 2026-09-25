@@ -1,7 +1,7 @@
 const r = require("raylib");
 
 function setup() {
-
+  // setup
 }
 
 function update() {
