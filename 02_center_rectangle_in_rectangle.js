@@ -31,7 +31,7 @@ function draw() {
     r.DrawRectangle(innerX, innerY, innerWidth, innerHeight, red);
 }
 
-function update() {}
+function update() { }
 
 function loop() {
     while (!r.WindowShouldClose()) {
