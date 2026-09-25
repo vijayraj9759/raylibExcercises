@@ -1,1 +1,7 @@
-console.log("hello charan")
+function centerCoordinate(largerSubCoordinate, smallerSubCoordinate) {
+  return (largerSubCoordinate - smallerSubCoordinate) / 2;
+}
+
+module.exports = {
+  centerCoordinate,
+}
