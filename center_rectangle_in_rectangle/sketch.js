@@ -1,11 +1,12 @@
 const r = require("raylib");
 const geometry = require("./geometry.js");
 
-const windowWidth = 800;
-const windowHeight = 500;
-const FPS = 60;
 
 function setup() {
+  const windowWidth = 800;
+  const windowHeight = 500;
+  const FPS = 60;
+
   r.InitWindow(windowWidth, windowHeight, "02_center_rectangle_in_rectangle");
   r.SetTargetFPS(FPS);
 }
