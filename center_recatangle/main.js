@@ -1,9 +1,6 @@
-const geometry = require("./geometry.js");
 const sketch = require("./sketch.js");
 
-
 function loop() {
-
   while (sketch.running()) {
     sketch.update();
     sketch.draw();

@@ -5,22 +5,20 @@ const windowWidth = 800;
 const windowHeight = 500;
 const FPS = 60;
 
-const rectWidth = 400;
-const rectHeight = 200;
-
 function setup() {
   r.InitWindow(windowWidth, windowHeight, "01_center_rectangle");
   r.SetTargetFPS(FPS);
 }
 
 function update() {
-
 }
 
 function draw() {
   r.BeginDrawing();
-
   r.ClearBackground(r.BLUE);
+
+  const rectWidth = 400;
+  const rectHeight = 200;
 
   r.DrawRectangle(
     geometry.centerCoordinate(windowWidth, rectWidth),
