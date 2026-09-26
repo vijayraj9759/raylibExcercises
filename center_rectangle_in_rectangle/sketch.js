@@ -1,7 +1,6 @@
 const r = require("raylib");
 const geometry = require("./geometry.js");
 
-
 function setup() {
   const windowWidth = 800;
   const windowHeight = 500;
